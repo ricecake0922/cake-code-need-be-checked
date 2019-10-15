@@ -32,12 +32,6 @@ bot.on('ready', () => {
 console.log('This bot is online!');
 })
 
-bot.on('message', msg=>{
-    if(msg.content === "SLAP"){
-        msg.reply('Ellie is watching you');
-    }
-})
-
 bot.on('message', message=>{
 
     let args = message.content.substring(PREFIX.length).split(" ");
@@ -214,8 +208,6 @@ bot.on('message', message=>{
 
 
 })
-
-
 
  
 
