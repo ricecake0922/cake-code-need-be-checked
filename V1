@@ -1,0 +1,222 @@
+const Discord = require('discord.js');
+const bot = new Discord.Client();
+
+const token = 'XXXXXXXXXXXXXXX';
+
+const PREFIX = '!';
+
+var IGserver = 'SEA';
+
+const images = [
+    'https://i.imgur.com/VW0cOyL.gif',
+    'https://i.imgur.com/GPQJEx5.gif',
+    'https://i.imgur.com/mdZR2D2.gif',
+    'https://i.imgur.com/Li9mx3A.gif',
+    'https://i.imgur.com/kVI9SHf.gif'
+];
+
+const hugs = [
+    'https://i.imgur.com/r9aU2xv.gif',
+    'https://i.imgur.com/wOmoeF8.gif',
+    'https://i.imgur.com/BPLqSJC.gif',
+    'https://i.imgur.com/4oLIrwj.gif',
+    'https://i.imgur.com/6qYOUQF.gif'
+];
+
+const rideons = [
+    'https://cdn.discordapp.com/attachments/629558347313709066/633522275362013216/rideon.jpg',
+    'https://media1.tenor.com/images/3e007a751300cbd19af21bf3b98546c3/tenor.gif'
+]
+
+bot.on('ready', () => {
+console.log('This bot is online!');
+})
+
+bot.on('message', msg=>{
+    if(msg.content === "SLAP"){
+        msg.reply('Ellie is watching you');
+    }
+})
+
+bot.on('message', message=>{
+
+    let args = message.content.substring(PREFIX.length).split(" ");
+
+    switch(args[0]){ 
+        case 'stop':
+            const embed = new Discord.RichEmbed().setImage('https://cdn.discordapp.com/attachments/474588210299666442/497979030730178562/unknown-6.png');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+
+    switch(args[0]){ 
+        case 'youngbronya':
+            const embed = new Discord.RichEmbed().setImage('https://i2.wp.com/bh3news.com/wp-content/uploads/2019/07/01.jpg?resize=360%2C240&ssl=1');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'kiss':
+            const embed = new Discord.RichEmbed().setImage('https://i.ytimg.com/vi/mW0xl5UzoXw/maxresdefault.jpg');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'spank':
+            const embed = new Discord.RichEmbed().setImage('https://media.giphy.com/media/cl3EMK5vlECNO2UJr2/giphy.gif');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'tericute':
+            const embed = new Discord.RichEmbed().setImage('https://cdn.discordapp.com/attachments/558200192029949953/630711560817606656/03cdd83ad451c2ff49e0df6559e26a24.gif');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'laugh':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/ef99dd26d585866aa6f3a558633f5900/tenor.gif?itemid=6103110');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'lick':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/ec2ca0bf12d7b1a30fea702b59e5a7fa/tenor.gif?itemid=13417195');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'yum':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/0c7c773b3b94ba183eb16bcda2e130e9/tenor.gif?itemid=14108951');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'point':
+            const embed = new Discord.RichEmbed().setImage('https://media.tenor.com/images/4e4aca6054a37384ac0beb7f3937cb01/tenor.gif');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'smug':
+            const embed = new Discord.RichEmbed().setImage('https://media.tenor.com/images/09bee46d966d658586e8ae3224a7f294/tenor.gif');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'stare':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/46cf8801a50fe43770acaf78ef760c64/tenor.gif?itemid=11627087');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'wink':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/8a4496aaefcafe7cc4338e15b29d1129/tenor.gif?itemid=5628679');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'bite':
+            const embed = new Discord.RichEmbed().setImage('https://media1.tenor.com/images/432a41a6beb3c05953c769686e8c4ce9/tenor.gif?itemid=4704665');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'pat':
+            const embed = new Discord.RichEmbed().setImage('https://tenor.com/view/charlotte-pat-blush-embarrassed-shy-gif-5081286');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'magusdaily':
+            const embed = new Discord.RichEmbed().setImage('https://cdn.discordapp.com/attachments/558200192029949953/633516686028308500/ASHILKL.png');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'teri':
+            const embed = new Discord.RichEmbed().setImage('https://cdn.discordapp.com/attachments/629558347313709066/633521377084702726/teriderps.gif');
+            message.channel.send({ embed: embed });
+        break;
+    }
+
+    switch(args[0]){ 
+        case 'info':
+            const embed = new Discord.RichEmbed()
+            .setTitle('User Information')
+            .addField('Captain Name', message.author.username,true)
+            .addField('IGServer', IGserver,true)
+            .addField('Current Server', message.guild.name,true)
+            .setColor(0xb05765)
+            .setThumbnail(message.author.avatarURL)
+            .setFooter('Enjoy and Have Fun!')
+            message.channel.sendEmbed(embed);
+        break;
+    }
+    
+
+    bot.on('guildMember', member =>{
+    switch(args[0]){    
+        case 'slap':
+            function randomImage(images) {
+                return images[Math.floor(Math.random() * images.length)];
+                randomImage(images);
+            }
+            const embed = new Discord.RichEmbed().setImage(randomImage(images));
+            message.channel.send(member);
+            message.channel.send({ embed: embed });
+            message.channel.send(`Why slap yourself, ${member}?`)
+           
+        break;       
+    }
+    });
+
+    switch(args[0]){
+    
+        case 'rideon':
+            function randomImage(rideons) {
+                return rideons[Math.floor(Math.random() * rideons.length)];
+                randomImage(rideons);
+            }
+            const embed = new Discord.RichEmbed().setImage(randomImage(rideons));
+            message.channel.send({ embed: embed });
+        break;       
+   
+    }
+
+    switch(args[0]){
+    
+        case 'hug':
+            function randomImage(hugs) {
+                return hugs[Math.floor(Math.random() * hugs.length)];
+                randomImage(hugs);
+            }
+            const embed = new Discord.RichEmbed().setImage(randomImage(hugs));
+            message.channel.send({ embed: embed });
+        break;       
+   
+    }
+
+
+})
+
+
+
+ 
+
+bot.login(token);
